@@ -10,6 +10,7 @@ requirements:
     - python
     - setuptools
     - cython
+    - scipy
 
   run:
     - python
