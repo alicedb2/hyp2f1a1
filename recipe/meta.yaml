@@ -5,10 +5,14 @@ package:
 source:
   git_url: https://github.com/alicedb2/hyp2f1a1.git
 
+build:
+  noarch: python
+
 requirements:
   build:
     - python
     - setuptools
+    - {{ compiler('c') }}
     - cython
     - scipy
 
